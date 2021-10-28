@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="github" fetch="https://github.com/mobxCode" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="github" revision="nad" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="github" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="github" revision="11.0" clone-depth="1" />
+        
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="github" revision="13" clone-depth="1" />
+
+</manifest>
