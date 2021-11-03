@@ -14,9 +14,7 @@
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
         
-        <!-- Apps -->
-        <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Nusantara" revision="11" clone-depth="1" />
-
+        
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
 
