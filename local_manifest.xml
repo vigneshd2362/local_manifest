@@ -3,8 +3,6 @@
 
         <!-- Remote -->
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
-        <remote name="me"
-            fetch="https://github.com/mobxprjkt" />
         <remote name="gf"
             fetch="https://github.com/greenforce-project" />
          
