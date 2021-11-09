@@ -8,13 +8,11 @@
             fetch="https://github.com/greenforce-project" />
          
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_tree" remote="me" revision="main" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_citrus" remote="mobxCode" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
-
-        <include name="pex.xml" />
 
 </manifest>
