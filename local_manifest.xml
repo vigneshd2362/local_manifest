@@ -15,4 +15,6 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
 
+        <include name="pex.xml" />
+
 </manifest>
