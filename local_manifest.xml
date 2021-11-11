@@ -5,13 +5,13 @@
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
         <remote name="me" fetch="https://github.com/mobxprjkt" />
         <remote name="gf"
-            fetch="https://github.com/frostg-012" />
+            fetch="https://github.com/greenforce-project" />
          
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="mobxCode" revision="aex" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="kernel_codeaurora_bengal" remote="gf" revision="sm6115" clone-depth="1" />
-        
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
+
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
 
