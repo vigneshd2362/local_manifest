@@ -3,24 +3,13 @@
 
         <!-- Remote -->
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
-        <remote name="dp" fetch="https://github.com/indraadp" />
-        <remote name="gf"
-            fetch="https://github.com/greenforce-project" />
+        <remote name="gf" fetch="https://github.com/greenforce-project" />
          
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="mobxCode" revision="aex" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="pex_device_xiaomi_juice" remote="mobxCode" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
 
-        <remove-project name="platform_packages_apps_Settings"/>
-        <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mobxCode" revision="11.x"/>
-
-         <!-- Remove -->
-        <remove-project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" />
-        
-        <!-- Clone -->
-        <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="dp" revision="11.x" clone-depth="1" />
- 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
 
