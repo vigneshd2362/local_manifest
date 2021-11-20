@@ -4,7 +4,7 @@
         <!-- Remote -->
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
         <remote name="me"
-            fetch="https://github.com/mobxprjkt" />
+            fetch="https://github.com/mobxCode" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
         
         <!-- Trees -->
@@ -13,6 +13,9 @@
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="me" revision="11.0" clone-depth="1" />
 
        <!-- Replacements -->
+        <remove-project name="packages_apps_Settings"/>
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="me" revision="ssos"/>
+        
         <remove-project name="android_device_ssos_sepolicy"/>
         <project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" remote="mobxCode" revision="ssos"/>
 
