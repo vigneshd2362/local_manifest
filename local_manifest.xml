@@ -5,21 +5,17 @@
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
         <remote name="me"
             fetch="https://github.com/mobxCode" />
-        <remote name="gf" fetch="https://github.com/greenforce-project" />
+        <remote name="kdragon" fetch="https://github.com/kdrag0n" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="ssos_device_juice" remote="mobxCode" revision="main" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="pixel_device_juice" remote="mobxCode" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="me" revision="11.0" clone-depth="1" />
 
        <!-- Replacements -->
-        <remove-project name="packages_apps_Settings"/>
-        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="me" revision="ssos"/>
         
-        <remove-project name="android_device_ssos_sepolicy"/>
-        <project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" remote="mobxCode" revision="ssos"/>
 
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
+       <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
 
 </manifest>
