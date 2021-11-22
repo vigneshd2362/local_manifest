@@ -13,9 +13,5 @@
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="me" revision="11.0" clone-depth="1" />
 
        <!-- Replacements -->
-        
-
-       <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
-
+       
 </manifest>
