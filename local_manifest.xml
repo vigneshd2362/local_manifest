@@ -17,6 +17,9 @@
         
         <remove-project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" />
         <project path="packages/apps/Extensions" name="aex_packages_apps_Extensions" remote="mobxCode" revision="main" clone-depth="1" />
+        
+        <remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="aex_packages_apps_Settings" remote="mobxCode" revision="main" clone-depth="1" />
  
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
