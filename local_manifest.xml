@@ -3,7 +3,6 @@
 
         <!-- Remote -->
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
-        <remote name="kdragon" fetch="https://github.com/kdrag0n" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="ssos_device_juice" remote="mobxCode" revision="main" clone-depth="1" />
@@ -16,7 +15,5 @@
         <remove-project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" />
         <project path="device/ssos/sepolicy" name="ssos_device_juice_sepolicy" remote="mobxCode" revision="main" clone-depth="1" />
 
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
-
+        
 </manifest>
