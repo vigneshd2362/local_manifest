@@ -12,6 +12,9 @@
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mobxCode" revision="11.0" clone-depth="1" />
 
         <!-- Replacements -->
+        <remove-project path="packages/apps/Settings" name="android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mobxCode" revision="android_11" clone-depth="1" />
+        
         <remove-project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" />
         <project path="device/ssos/sepolicy" name="ssos_device_juice_sepolicy" remote="mobxCode" revision="main" clone-depth="1" />
 
