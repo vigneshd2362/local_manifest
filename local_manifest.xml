@@ -9,7 +9,7 @@
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
 
         <!-- GreenForce Kernel -->
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="mobxCode" revision="rvc-inline" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mobxCode" revision="11.0" clone-depth="1" />
 
         <!-- Replacements -->
         <remove-project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" />
