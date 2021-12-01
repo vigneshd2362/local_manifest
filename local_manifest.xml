@@ -11,6 +11,9 @@
         <!-- MoonBase Kernel -->
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mobxCode" revision="11.0" clone-depth="1" />
 
+       <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="mobxCode" revision="13" clone-depth="1" />
+
         <!-- Replacements -->
         <remove-project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" />
         <project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" remote="mobxCode" revision="ssos" clone-depth="1" />
