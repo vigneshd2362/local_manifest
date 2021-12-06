@@ -3,6 +3,7 @@
 
         <!-- Remote -->
         <remote name="mobxCode" fetch="https://github.com/mobxCode" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="cipher_device_juice" remote="mobxCode" revision="main" clone-depth="1" />
@@ -10,6 +11,9 @@
 
         <!-- MoonBase Kernel -->
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mobxCode" revision="11.0" clone-depth="1" />
+
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
                 
 </manifest>
