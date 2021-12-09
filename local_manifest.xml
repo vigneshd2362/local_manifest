@@ -6,11 +6,11 @@
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="cdt_jus" remote="mobxCode" revision="main" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="mobxCode" revision="11" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_tree_juice_twelve" remote="mobxCode" revision="twelve" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="vendor_tree_juice_twelve" remote="mobxCode" revision="twelve" clone-depth="1" />
 
-        <!-- GreenForce Kernel -->
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="mobxCode" revision="rvc-inline" clone-depth="1" />
+        <!-- MoonBase Kernel -->
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mobxCode" revision="main" clone-depth="1" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
