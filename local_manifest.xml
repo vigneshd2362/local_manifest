@@ -3,10 +3,14 @@
 
         <!-- Remote -->
         <remote name="vickycena1" fetch="https://github.com/vickycena1" />
+        <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="vickycena1" revision="twelve-arrow" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="vickycena1" revision="twelve" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="vickycena1" revision="rvc" clone-depth="1" />
+
+        <!-- Clang 14 Version 14.0.2 -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="android_prebuilts_clang_host_linux-x86_clang-r445002" remote="crdroid-gitlab" revision="refs/heads/12.0" clone-depth="1" />
 
 </manifest>
