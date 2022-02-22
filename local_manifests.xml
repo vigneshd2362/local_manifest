@@ -10,7 +10,7 @@
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="vickycena1" revision="twelve" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="vickycena1" revision="IcedCitrusSnow_Inline" clone-depth="1" />
 
-        <!-- Clang 14 Version 14.0.2 -->
+        <!-- Clang 14 Version 14.0 -->
         <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="crdroid-gitlab" revision="refs/heads/12.0" clone-depth="1" />
 
 </manifest>
